@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DemoWebsite</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="node_modules\@glidejs\glide\dist\css\glide.theme.css">
+    <style>
+        a{
+            text-decoration: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+ 
+        <nav class="main-nav">
+            <div class="nav-item"> <a href="#wholesale">Wholesale - Pros Only</a></div>
+            <div class="nav-item"> <a href="#retail">Retail</a></div>
+            <div>
+                <input id="search-bar" type="text" placeholder="Seach by name, category...">
+                <input type="submit" value="search">
+            </div>
+            <div class="nav-item"> <a href="#comunity">Comunity</a></div>
+            <div class="nav-item"> <a href="#account">Account</a></div>
+            <div class="nav-item"> <a href="#cart">Cart</a></div>
+            
+        </nav>
+
+        <nav class="sub-nav">
+            
+            
+             <a  class="subnav-item" href="#jewlery">BODY JEWLERY</a> 
+             <a  class="subnav-item" href="#piercing">PIERCING</a> 
+             <a  class="subnav-item" href="#tatto">TATTO</a> 
+             <a  class="subnav-item" href="#medical">MEDICAL</a> 
+             <a  class="subnav-item" href="#studio">STUDIO</a> 
+             <a  class="subnav-item" href="#makeup">PERMANENT MAKEUP</a> 
+      
+      </nav>
+    </header>
+
+    <div class="container">
+          <div id="grid-item1">
+        <img src="images\dummy_600x400_000000_84a313.png" alt="dummy img">
+          </div>
+         <div id="grid-item2">
+            <img src="images/dummy_600x400_000000_96ed93.png" alt="dummy img">
+         </div>
+         <div id="grid-item3">
+            <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+         </div>
+     </div>
+
+     <div class="item-container">
+        <div class="block-item">
+            <div class="card-header"><h3>TATTO <br> SUPLIES</h3></div>
+                    <div>
+                        <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+                    </div>
+                    <div class="button-container"><button>Shop now</button></div>
+        </div>
+        <div class="block-item">
+            <div class="card-header"><h3>BODY <br> JEWLERY</h3></div>
+                <div>
+                    <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+                </div>
+                <div class="button-container"><button>Shop now</button></div>
+        </div>
+        <div class="block-item">
+            <div class="card-header"><h3>PIERCING <br> SUPLIES</h3></div>
+                 <div>
+                      <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+                 </div>
+                 <div class="button-container"><button>Shop now</button></div>
+        </div>
+        <div class="block-item">
+            <div class="card-header"><h3>MEDICAL <br> SUPPLIES</h3></div>
+                <div>
+                    <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+                 </div>
+            <div class="button-container"><button>Shop now</button></div>
+        </div>
+        <div class="block-item">
+            <div class="card-header"><h3>PERMANENT <br> MAKEUP</h3></div>
+                 <div>
+                     <img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img">
+                 </div>
+            <div class="button-container"><button>Shop now</button></div>
+        </div>
+     </div>
+
+
+<div class="glide-section">
+     <div class="glide-header">
+        <h2>New Items</h2>
+    </div>
+<div class="glide-container">
+     <div class="glide">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides">
+            <li class="glide__slide"><div><img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img"> <div class="item-price"><h3>$567</h3></div><div class="item-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div></li>
+            <li class="glide__slide"><div><img src="images\dummy_600x400_000000_96ed93.png" alt="dummy img"> <div class="item-price"><h3>$567</h3></div><div class="item-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div></li>
+            <li class="glide__slide"><div><img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img"> <div class="item-price"><h3>$567</h3></div><div class="item-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div></li>
+            <li class="glide__slide"><div><img src="images\dummy_600x400_000000_96ed93.png" alt="dummy img"> <div class="item-price"><h3>$567</h3></div><div class="item-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div></li>
+            <li class="glide__slide"><div><img src="images\dummy_600x400_000000_f9f8ae.png" alt="dummy img"> <div class="item-price"><h3>$567</h3></div><div class="item-description"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p></div></div></li>
+          </ul>
+        </div>
+        <div class="glide__arrows" data-glide-el="controls">
+            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">prev</button>
+            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">next</button>
+          </div>
+       </div>
+</div>
+</div>
+    
+
+      
+       <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+       <script>
+        const confing = {
+            type:"carousel",
+            perView: 5,
+            breakpoints:{
+                1024:{
+                    perView: 2
+                },
+                600:{
+                    perView: 1
+                }
+            }
+         };
+           new Glide('.glide', confing).mount()
+         </script>
+    
+</body>
+</html>
